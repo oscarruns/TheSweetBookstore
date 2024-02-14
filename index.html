@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- CDN: TYPED.JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- CDN: VANILLA-TILT.JS -->
+    <script src="config/vanilla.js"></script>
+    <title>The Sweet Bookstore</title>
+</head>
+<body>
+    <div id="container">
+      <section id="sec0">
+        <div class="head">
+            <header>
+                <nav>
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1 col-xs-1 logo" id="menuDPL">
+                          <img id="menuDPL" src="img/logo_TSBCircular.png" alt="LOGO">
+                        </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 navig">
+                        <ul id="nav">
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="pages/html/gallery.html">GALERÍA</a></li>
+                        <li><a href="pages/html/events.html">EVENTOS</a></li>
+                        <li><a href="pages/html/aboutUs.html">SOBRE NOSOTROS</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-desplegable" id="menu-desplegable">
+                      <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="pages/html/gallery.html">GALERÍA</a></li>
+                        <li><a href="pages/html/events.html">EVENTOS</a></li>
+                        <li><a href="pages/html/aboutUs.html">SOBRE NOSOTROS</a></li>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3 socialMedia">
+                      <a href="https://x.com/TSB_Oficial_?t=X_DMmOUvAV6YsAu-6FKElw&s=09"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_twitter-128.png" class="social"/></a>
+                      <a href="https://www.instagram.com/thesweetbookstore/"><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/instagram_online_social_media-128.png" class="social"/></a>
+                    </div>
+                    </div>
+                </nav>
+
+                <div class="title">
+                  <h1>Somos</h1>
+                  <h1><span class="spanMade" id="madeWith"></span></h1> <!-- Aquí va un typing effect (typed.js)-->
+                </div>
+                <div class="line">
+                </div>
+                <h4>
+                  The Sweet Bookstore ofrece elaboraciones de alta calidad y un proyecto innovador.<br>
+                  La posibilidad de sumergirte en una lectura mientras disfrutas del aroma de un buen café y el<br>
+                  suave y agradable sabor de un dulce casero, está aquí.<br><br><br>
+
+                  ¡Conoce nuestras elaboraciones y adéntrate en esta aventura con nosotros!<br>
+                <a class="algnBTN" href="pages/html/gallery.html">
+                  <button class="galleryBTN">
+                    Nuestras elaboraciones
+                  </button>
+                </a>
+                </h4>
+                
+            </header>
+        </div>
+      </section>
+        
+        <section id="sec2">
+          <div class="wrapper">
+            <div id="box1" class="box card visible">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                  <h1>Tartas</h1>
+                  <h5>PRODUCTO DESTACADO</h5>
+                  <p>Nuestras tartas son una de las varias especialidades que poseemos, y nuestros clientes lo saben.
+                    ¡Ofrecemos tartas de ensueño para todo tipo de situaciones!
+                  </p>
+                  <a href="pages/html/gallery.html"><h5 class="verMas">Ver más productos</h5></a>
+                </div>
+                <div class="nextSec">
+                  <img onclick="changeBox()" src="img/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div id="box2" class="box card hidden">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                  <h1>Para diabéticos...</h1>
+                  <h5>PRODUCTO DESTACADO</h5>
+                  <p>Sabemos lo complicado que es encontrar productos aptos para ellos, por no hablar de que pedir que estén
+                    a la altura de los que contienen azúcar, es otro mundo...
+                    Podemos decir, orgullosos, que nuestros productos te permitirán disfrutar de un sabor único y sabroso.
+                  </p>
+                  <a href="pages/html/gallery.html"><h5 class="verMas">Ver más productos</h5></a>
+                </div>
+                <div class="nextSec">
+                  <img onclick="changeBox()" src="img/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div id="box3" class="box card hidden">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                  <h1>Postres variados</h1>
+                  <h5>PRODUCTO DESTACADO</h5>
+                  <p>Disponemos de una amplia variedad de postres de la que nos sentimos orgullosos y, por supuesto,
+                    la calidad es tan alta como podrías imaginar. Elige entre decenas de productos... ¡O llévatelos todos! ;)
+                  </p>
+                  <a href="pages/html/gallery.html"><h5 class="verMas">Ver más productos</h5></a>
+                </div>
+                <div class="nextSec">
+                  <img onclick="changeBox()" src="img/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div id="box4" class="box card hidden">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                  <h1>Panes</h1>
+                  <h5>PRODUCTO DESTACADO</h5>
+                  <p>
+                    Aunque disponemos de numerosos artículos de repostería... ¡Jamás nos olvidaríamos de ti, pan!<br>
+                    Con nuestros sabrosos y crujientes panes elaborados artesanalmente, te
+                    sentirás como en casa... ¡El secreto está en la masa!
+                  </p>
+                  <a href="pages/html/gallery.html"><h5 class="verMas">Ver más productos</h5></a>
+                </div>
+                <div class="nextSec">
+                  <img onclick="changeBox()" src="img/arrow.png" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+          
+        </section>
+        <footer>
+          <section class="credit">Copyright © 2024 <span>The Sweet Bookstore</span>. Todos los derechos reservados.</section>
+        </footer>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
